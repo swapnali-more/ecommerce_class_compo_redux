@@ -1,0 +1,52 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+}
+.navbar {
+    background-color: #013e7f;
+    &-brand {
+        font-size: 2rem;
+    }
+}
+.card {
+    border-radius: 0;
+    border: 0;
+    margin: 1.2rem 0;
+    &-body {
+        padding: 1.2rem;
+    }
+    &-title {
+        font-size: 1.4rem;
+        font-weight: 400;
+        line-height: 1.4;
+        color: #92278f;
+    }
+    &-text {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    border-radius: 0;
+    box-shadow: none;
+    outline: 0;
+    &-primary {
+        background-color: #99be3b;
+        border-color: #99be3b;
+        &:hover {
+            background-color: transparent;
+            border-color: #99be3b;
+            color: #99be3b;
+        }
+    }
+}
