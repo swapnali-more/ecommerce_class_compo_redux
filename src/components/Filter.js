@@ -5,7 +5,9 @@ export default class Filter extends Component {
     render(props) {
         return (
             <>
-                <Col xs={4}><strong>{this.props.count}</strong> Products</Col>
+                <Col xs={4}>
+                    <h3 className='mb-0'><strong>{this.props.count}</strong> Products</h3>
+                </Col>
                 <Col xs={4}>
                     Order
                     <Form.Select value={this.props.sort} onChange={this.props.sortProducts}>
